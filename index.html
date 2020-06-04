@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 style="text-align: center; font-family: Arial; font-size: 30px;">
+      HANGMAN
+    </h1>
+    <div id="hiddenLetters"></div>
+    <div id="startup">
+      <p style="text-align: center; font-family: Arial; font-size: 30px;">
+        Enter a word to begin
+      </p>
+      <input id="wordText" placeholder="Word" type="password" />
+      <form action="Javascript:onStart()">
+        <br /><br /><br /><br />
+        <input
+          id="startButton"
+          onmousedown="onStart()"
+          type="image"
+          name="Submit"
+          src="play.png"
+        />
+      </form>
+    </div>
+    <div style="float: left;" id="letters"></div>
+
+    <img style="float: right;" src="white.png" id="hangmanImage" />
+    <script src="main.js "></script>
+  </body>
+</html>

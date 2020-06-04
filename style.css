@@ -1,0 +1,32 @@
+#startButton {
+  height: 150px;
+  width: 165px;
+  margin: auto;
+  display: block;
+}
+#startButton:hover {
+  height: 145px;
+  width: 160px;
+  margin: auto;
+  display: block;
+}
+
+#hangmanImage {
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+}
+
+#wordText {
+  display: block;
+  margin: auto;
+}
+
+#answer {
+  float: right;
+}
+
+#hiddenLetters {
+  display: flex;
+}
